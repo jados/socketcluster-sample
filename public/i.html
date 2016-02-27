@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<title>WebSocket Client</title>
+</head>
+<script type="text/javascript" src="http://static.sporttery.cn/info/jslib/jq/jquery-1.7.min.js"></script>
+<body>
+<div id="a">123</div>
+<script src="/socketcluster.js"></script>
+<script>
+$(document).ready(function(){
+	var opts = {
+	    protocol: 'http',
+	    hostname: '10.1.1.69',
+	    port: 8000
+	};
+	var socket = socketCluster.connect(opts);
+	var ch = socket.subscribe('set');
+	ch.watch(function(data){
+		console.log(data);
+		$('#a').html('data:<a href="' + data.link +'">' + data.title + '</a>');
+	});
+    socket.on('getData', function(data){
+    	console.log('in');
+        $('#a').html('data:<a href="' + data.link +'">' + data.title + '</a>');
+    });
+});
+</script>
+</body>
+</html>
+

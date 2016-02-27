@@ -1,0 +1,23 @@
+{
+  "name": "socketcluster-sample",
+  "description": "A sample SocketCluster app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "connect": "3.0.1",
+    "express": "4.13.1",
+    "minimist": "1.1.0",
+    "serve-static": "1.8.0",
+    "socketcluster": "4.x.x",
+    "socketcluster-client": "4.x.x",
+    "log4js": "*",
+    "ioredis": "*",
+    "express": "^4.8.7",
+    "body-parser": "^1.7.0"
+  },
+  "author": "Jeff.D (jados.dong@gmail.com)",
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,238 @@
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.282] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.282] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.283] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.282] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.282] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.287] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.287] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.281] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.292] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:47:28.293] [[32m INFO[39m] - setNoti { title: 'test!!!!!!!!!!!!!', link: 'wwww' }
+
+[2016-02-27 13:48:12.401] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down]
+Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.exports.returnError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:63:20)
+    at ReplyParser.replyParser.sendError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:22:10)
+    at ReplyParser.execute (/home/jeffd/git/abc/node_modules/ioredis/lib/parsers/javascript.js:145:14)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:94:22)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+    at Socket.Readable.push (_stream_readable.js:128:10)
+    at TCP.onread (net.js:529:21)
+
+[2016-02-27 13:48:13.422] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down]
+Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.exports.returnError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:63:20)
+    at ReplyParser.replyParser.sendError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:22:10)
+    at ReplyParser.execute (/home/jeffd/git/abc/node_modules/ioredis/lib/parsers/javascript.js:145:14)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:94:22)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+    at Socket.Readable.push (_stream_readable.js:128:10)
+    at TCP.onread (net.js:529:21)
+
+[2016-02-27 13:48:18.421] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:18.436] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:22.419] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:25.439] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:25.449] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down]
+Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.exports.returnError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:63:20)
+    at ReplyParser.replyParser.sendError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:22:10)
+    at ReplyParser.execute (/home/jeffd/git/abc/node_modules/ioredis/lib/parsers/javascript.js:145:14)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:94:22)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+    at Socket.Readable.push (_stream_readable.js:128:10)
+    at TCP.onread (net.js:529:21)
+
+[2016-02-27 13:48:27.446] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:27.448] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down]
+Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.exports.returnError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:63:20)
+    at ReplyParser.replyParser.sendError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:22:10)
+    at ReplyParser.execute (/home/jeffd/git/abc/node_modules/ioredis/lib/parsers/javascript.js:145:14)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:94:22)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+    at Socket.Readable.push (_stream_readable.js:128:10)
+    at TCP.onread (net.js:529:21)
+
+[2016-02-27 13:48:27.452] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down]
+Error: Too many Cluster redirections. Last error: ReplyError: CLUSTERDOWN The cluster is down
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.exports.returnError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:63:20)
+    at ReplyParser.replyParser.sendError (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/parser.js:22:10)
+    at ReplyParser.execute (/home/jeffd/git/abc/node_modules/ioredis/lib/parsers/javascript.js:145:14)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:94:22)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    at emitReadable (_stream_readable.js:423:5)
+    at readableAddChunk (_stream_readable.js:166:9)
+    at Socket.Readable.push (_stream_readable.js:128:10)
+    at TCP.onread (net.js:529:21)
+
+[2016-02-27 13:48:28.443] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:28.445] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:29.440] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:30.452] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:35.464] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+
+[2016-02-27 13:48:35.466] [[33m WARN[39m] - [Error: Too many Cluster redirections. Last error: Error: Connection is closed.]
+Error: Too many Cluster redirections. Last error: Error: Connection is closed.
+    at Cluster.handleError (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:552:30)
+    at Command.command.reject (/home/jeffd/git/abc/node_modules/ioredis/lib/cluster.js:468:13)
+    at Redis.flushQueue (/home/jeffd/git/abc/node_modules/ioredis/lib/redis.js:355:18)
+    at close (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:88:10)
+    at Socket.<anonymous> (/home/jeffd/git/abc/node_modules/ioredis/lib/redis/event_handler.js:68:14)
+    at Socket.g (events.js:180:16)
+    at Socket.emit (events.js:95:17)
+    at TCP.close (net.js:466:12)
+

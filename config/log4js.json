@@ -1,0 +1,55 @@
+{
+	"appenders": [
+		{"type": "console"},
+		{ 
+			"category": "app", 
+			"type": "dateFile", 
+			"filename": "logs/access",
+			"pattern": "-yyyyMMdd.log", 
+			"alwaysIncludePattern": true,
+			"layout": {
+				"type": "pattern",
+				"pattern": "[%d{ISO8601}] [%[%5.5p%]] - %m%n"
+			}
+		},
+		{ 
+			"category": "startup", 
+			"type": "dateFile", 
+			"filename": "logs/startup",
+			"pattern": "-yyyyMMdd.log", 
+			"alwaysIncludePattern": true,
+			"layout": {
+				"type": "pattern",
+				"pattern": "[%d{ISO8601}] [%[%5.5p%]] - %m%n"
+			}
+		},
+		{ 
+			"category": "redis", 
+			"type": "dateFile", 
+			"filename": "logs/redis",
+			"pattern": "-yyyyMMdd.log", 
+			"alwaysIncludePattern": true,
+			"layout": {
+				"type": "pattern",
+				"pattern": "[%d{ISO8601}] [%[%5.5p%]] - %m%n"
+			}
+		},
+		{ 
+			"category": "socket", 
+			"type": "dateFile", 
+			"filename": "logs/socket",
+			"pattern": "-yyyyMMdd.log", 
+			"alwaysIncludePattern": true,
+			"layout": {
+				"type": "pattern",
+				"pattern": "[%d{ISO8601}] [%[%5.5p%]] - %m%n"
+			}
+		}
+	],
+  
+	"levels": {
+		"app":  "INFO",
+		"redis": "INFO",
+		"socket": "INFO"
+	}
+}

@@ -1,0 +1,24 @@
+
+<html>
+<script src="/socketcluster.js"></script>
+<script>
+function p(){
+	var d = {title: document.getElementById('title').value, link: document.getElementById('link').value};
+
+	var opts = {
+	    protocol: 'http',
+	    hostname: '10.1.1.69',
+	    port: 8000
+	};
+	var socket = socketCluster.connect(opts);
+	var ch = socket.subscribe('set');
+	//socket.publish('set', {message: d});
+	socket.emit('set', d);
+}
+</script>
+<body>
+<input type="text" name="title" id="title">
+<input type="text" name="link" id="link">
+<input type="submit" name="submit" onclick="javascript:p()">
+</body>
+</html>
